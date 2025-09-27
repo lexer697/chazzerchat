@@ -37,15 +37,15 @@ STICKER = [
 
 
 EMOJIOS = [
-    "💣",
-    "💥",
-    "🪄",
-    "🧨",
-    "⚡",
-    "🤡",
-    "👻",
-    "🎃",
-    "🎩",
+    "🇮🇳",
+    "🍁",
+    "🌱",
+    "🍃",
+    "☘️",
+    "🍀",
+    "🏵️",
+    "🌼",
+    "🌸",
     "🕊",
 ]
 
@@ -109,7 +109,7 @@ async def welcomejej(client, message: Message):
             if member.id == ShrutiCHATBOT.id:
                 try:
                     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("sᴇʟᴇᴄᴛ ʟᴀɴɢᴜᴀɢᴇ", callback_data="choose_lang")]])    
-                    await message.reply_text(text="**тнαикѕ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴩ.**\n\n**ᴋɪɴᴅʟʏ  ꜱᴇʟᴇᴄᴛ  ʙᴏᴛ  ʟᴀɴɢᴜᴀɢᴇ  ꜰᴏʀ  ᴛʜɪꜱ  ɢʀᴏᴜᴩ  ʙʏ  ᴛʏᴩᴇ  ☞  /lang**", reply_markup=reply_markup)
+                    await message.reply_text(text="**тнαикѕ ꜰᴏʀ ᴀᴅᴅɪɴɢ ＬＹＲＡ🫣 ᴍᴇ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴩ.**\n\n**ᴋɪɴᴅʟʏ  ꜱᴇʟᴇᴄᴛ  ʙᴏᴛ  ʟᴀɴɢᴜᴀɢᴇ  ꜰᴏʀ  ᴛʜɪꜱ  ɢʀᴏᴜᴩ  ʙʏ  ᴛʏᴩᴇ  ☞  /lang**", reply_markup=reply_markup)
                 except Exception as e:
                     print(f"{e}")
                     pass
@@ -257,29 +257,29 @@ async def start(_, m: Message):
         await asyncio.sleep(0.5)
         
      
-        await accha.edit("**__ꨄ︎ ѕ__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ ѕ__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ sт__**")
+        await accha.edit("**__ꨄ ＬＹＲＡ sт__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ︎ ѕтα__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ ѕтα__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ︎ ѕтαя__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ ѕтαя__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ sтαят__**")
+        await accha.edit("**__ꨄ ＬＹＲＡ sтαят__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ︎ sтαятι__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ sтαятι__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ︎ sтαятιи__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ sтαятιи__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ sтαятιиg__**")
+        await accha.edit("**__ꨄ ＬＹＲＡ sтαятιиg__**")
         await asyncio.sleep(0.01)
-        await accha.edit("**__ꨄ︎ ѕтαятιиg.__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ ѕтαятιиg.__**")
         await asyncio.sleep(0.1)
-        await accha.edit("**__ꨄ sтαятιиg.....__**")
+        await accha.edit("**__ꨄ ＬＹＲＡ sтαятιиg.....__**")
         await asyncio.sleep(0.1)
-        await accha.edit("**__ꨄ︎ ѕтαятιиg.__**")
+        await accha.edit("**__ꨄ︎ ＬＹＲＡ ѕтαятιиg.__**")
         await asyncio.sleep(0.1)
-        await accha.edit("**__ꨄ sтαятιиg.....__**")
+        await accha.edit("**__ꨄ ＬＹＲＡ sтαятιиg.....__**")
         await accha.delete()
         
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
