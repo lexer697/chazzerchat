@@ -1,7 +1,7 @@
 {
   "name": "ShrutiCHATBOT",
   "description": "A Telegram bot maintained under the @ShrutiBots Community 🤖",
-  "logo": "https://files.catbox.moe/m2kbru.jpg",
+  "logo": "https://files.catbox.moe/jud9qk.png",
   "keywords": [
     "Chatbot",
     "mongodb",
@@ -11,7 +11,7 @@
   "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/linkers697/Vhhvvv",
+  "repository": "https://github.com/lexer697/chazzerchat",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org (API Development Tools)",
